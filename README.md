@@ -41,7 +41,8 @@ docker run -d --name dns --network mynetwork --restart=always sameersbn/bind:lat
 
 ## Crear un contenedor servidor:
 Para ello podemos usar cualquier imagen de software, por ejemplo, usaré la de Apache. Lo creo con el siguiente comando:
-``` docker run -d --name web --network mynetwork --restart=always httpd:latest
+```
+docker run -d --name web --network mynetwork --restart=always httpd:latest
 ```
 (Se creará un contenedor con el nombre 'web', usando la imagen de Apache. Este contenedor también se unirá a la red "mynetwork")
  
