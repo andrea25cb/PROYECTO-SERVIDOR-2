@@ -1,8 +1,7 @@
 # Host virtual en apache
 
-## Script que cree un host virtual a un usuario que exista:
 
-### Solicitar el nombre de usuario existente
+### Solicitamos el nombre de usuario existente
 
 ```read -p "Introduce el nombre del usuario: " username```
 
